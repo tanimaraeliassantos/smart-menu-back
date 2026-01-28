@@ -26,7 +26,11 @@ public class SecurityConfig {
     @Bean
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(List.of("http://localhost:4200"));
+        config.setAllowedOrigins(List.of(
+        		  "http://localhost:4200",
+        		  "http://lakritas.com",
+        		  "https://lakritas.com"
+        		));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
         config.setAllowCredentials(true);
@@ -58,7 +62,7 @@ public class SecurityConfig {
 
                 .requestMatchers("/restaurante/**").permitAll()
 
-                .requestMatchers("/pedido/**").hasAnyRole("EMPRESA", "CLIENTE")
+                .requestMatchers("/pedido/**").hasAnyRole("EMPRESA", "CLIENTE") //aqui dejo empresa y cliente solo para hacer las pruebas para no tener que estar logeando a cada rato pero en realidad solo debe de ir empresa
                 .requestMatchers("/categoria/**").hasAnyRole("EMPRESA", "CLIENTE")
                 .requestMatchers("/producto/**").hasAnyRole("EMPRESA", "CLIENTE")
 
