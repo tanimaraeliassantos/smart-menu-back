@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "696ba73c5fe46fff9ddceb19"
+  },
+  "nombre": "Entrantes",
+  "descripcion": "Para empezar",
+  "orden": 1,
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "696ba73c5fe46fff9ddceb1a"
+  },
+  "nombre": "Platos principales",
+  "descripcion": "Lo mas pedido",
+  "orden": 2,
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "696ba73c5fe46fff9ddceb1b"
+  },
+  "nombre": "Bebidas",
+  "descripcion": "Frias y calientes",
+  "orden": 3,
+  "activo": true
+}]

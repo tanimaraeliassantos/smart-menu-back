@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6960124aac4ad7ebb0682fa5"
+  },
+  "nombre": "MESA 1",
+  "email": "maria@correo.com",
+  "contrasena": "{noop}1234",
+  "rol": "CLIENTE",
+  "_class": "gestion.model.collections.Usuario"
+},
+{
+  "_id": {
+    "$oid": "69601269ac4ad7ebb0682fa6"
+  },
+  "nombre": "MESA 2",
+  "email": "empresa@logistica.com",
+  "contrasena": "{noop}1234",
+  "rol": "CLIENTE",
+  "_class": "gestion.model.collections.Usuario"
+},
+{
+  "_id": {
+    "$oid": "69601274ac4ad7ebb0682fa7"
+  },
+  "nombre": "MESA 3",
+  "email": "juan@correo.com",
+  "contrasena": "{noop}1234",
+  "rol": "CLIENTE",
+  "_class": "gestion.model.collections.Usuario"
+},
+{
+  "_id": {
+    "$oid": "696235f0418fd86563bc0036"
+  },
+  "nombre": "Empresa",
+  "email": "empresa@correo.com",
+  "contrasena": "{noop}1234",
+  "rol": "EMPRESA",
+  "_class": "gestion.model.collections.Usuario"
+}]

@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "696ba7a25fe46fff9ddceb24"
+  },
+  "estadoPedido": "NUEVO",
+  "nota": "Sin picante en general",
+  "items": [
+    {
+      "productoId": {
+        "$oid": "696ba7275fe46fff9ddceb13"
+      },
+      "nombreActual": "Patatas bravas",
+      "precioActual": 7.15,
+      "cantidad": 2,
+      "nota": "Sin alioli"
+    },
+    {
+      "productoId": {
+        "$oid": "696ba7275fe46fff9ddceb16"
+      },
+      "nombreActual": "Coca-Cola",
+      "precioActual": 2.66,
+      "cantidad": 1,
+      "nota": ""
+    }
+  ],
+  "total": 16.96,
+  "fechaCreacion": "2026-01-17",
+  "mesa": "Mesa 1"
+},
+{
+  "_id": {
+    "$oid": "696ba7ae5fe46fff9ddceb26"
+  },
+  "estadoPedido": "EN_PREPARACION",
+  "nota": "",
+  "items": [
+    {
+      "productoId": {
+        "$oid": "696ba7275fe46fff9ddceb15"
+      },
+      "nombreActual": "Hamburguesa clasica",
+      "precioActual": 11.99,
+      "cantidad": 1,
+      "nota": "Carne bien hecha"
+    },
+    {
+      "productoId": {
+        "$oid": "696ba7275fe46fff9ddceb14"
+      },
+      "nombreActual": "Croquetas caseras",
+      "precioActual": 7.7,
+      "cantidad": 1,
+      "nota": ""
+    }
+  ],
+  "total": 19.69,
+  "fechaCreacion": "2026-01-17",
+  "mesa": "Mesa 4"
+},
+{
+  "_id": {
+    "$oid": "696d3d17dc8afce23d5520ab"
+  },
+  "estadoPedido": "NUEVO",
+  "nota": "",
+  "items": [
+    {
+      "nombreActual": "Croquetas caseras",
+      "precioActual": {
+        "$numberDecimal": "7.7"
+      },
+      "cantidad": 3,
+      "nota": "ASD"
+    }
+  ],
+  "total": {
+    "$numberDecimal": "23.1"
+  },
+  "fechaCreacion": {
+    "$date": "2026-01-17T23:00:00.000Z"
+  },
+  "mesa": "Mesa 1",
+  "_class": "gestion.model.collections.Pedido"
+},
+{
+  "_id": {
+    "$oid": "696d3da1dc8afce23d5520ac"
+  },
+  "estadoPedido": "NUEVO",
+  "nota": "",
+  "items": [
+    {
+      "nombreActual": "Hamburguesa clasica",
+      "precioActual": {
+        "$numberDecimal": "11.99"
+      },
+      "cantidad": 2,
+      "nota": ""
+    }
+  ],
+  "total": {
+    "$numberDecimal": "23.98"
+  },
+  "fechaCreacion": {
+    "$date": "2026-01-17T23:00:00.000Z"
+  },
+  "mesa": "Mesa 1",
+  "_class": "gestion.model.collections.Pedido"
+},
+{
+  "_id": {
+    "$oid": "696d3e14dc8afce23d5520ad"
+  },
+  "estadoPedido": "NUEVO",
+  "nota": "",
+  "items": [
+    {
+      "nombreActual": "Croquetas caseras",
+      "precioActual": {
+        "$numberDecimal": "7.7"
+      },
+      "cantidad": 4,
+      "nota": ""
+    }
+  ],
+  "total": {
+    "$numberDecimal": "30.8"
+  },
+  "fechaCreacion": {
+    "$date": "2026-01-17T23:00:00.000Z"
+  },
+  "mesa": "Mesa 1",
+  "_class": "gestion.model.collections.Pedido"
+},
+{
+  "_id": {
+    "$oid": "696d3f8cdc8afce23d5520ae"
+  },
+  "estadoPedido": "NUEVO",
+  "nota": "",
+  "items": [
+    {
+      "nombreActual": "Croquetas caseras",
+      "precioActual": {
+        "$numberDecimal": "7.7"
+      },
+      "cantidad": 2,
+      "nota": ""
+    }
+  ],
+  "total": {
+    "$numberDecimal": "15.4"
+  },
+  "fechaCreacion": {
+    "$date": "2026-01-17T23:00:00.000Z"
+  },
+  "mesa": "Mesa 1",
+  "_class": "gestion.model.collections.Pedido"
+}]

@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "nombre": "Restaurante La Esquina",
+  "telefono": "600123456",
+  "direccion": "Calle Mayor 10, Madrid",
+  "activo": true
+}]
