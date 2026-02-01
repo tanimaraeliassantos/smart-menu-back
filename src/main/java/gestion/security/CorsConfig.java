@@ -17,8 +17,14 @@ public class CorsConfig {
 
     // IMPORTANTE: si usas allowCredentials(true) NO puedes usar "*"
     config.setAllowedOrigins(List.of(
-        "http://localhost:4200"
-    ));
+            "http://localhost:4200",
+            "http://127.0.0.1:4200",
+
+            "http://lakritas.com",
+            "https://lakritas.com",
+            "http://www.lakritas.com",
+            "https://www.lakritas.com"
+        ));
 
     config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
     config.setAllowedHeaders(List.of("Authorization","Content-Type"));
