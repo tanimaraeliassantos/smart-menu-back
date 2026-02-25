@@ -19,7 +19,6 @@ public class CorsConfig {
     config.setAllowedOrigins(List.of(
             "http://localhost:4200",
             "http://127.0.0.1:4200",
-
             "http://lakritas.com",
             "https://lakritas.com",
             "http://www.lakritas.com",
