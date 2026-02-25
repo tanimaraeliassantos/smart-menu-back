@@ -17,12 +17,11 @@ public class CorsConfig {
 
     // IMPORTANTE: si usas allowCredentials(true) NO puedes usar "*"
     config.setAllowedOrigins(List.of(
-        "http://localhost:4200"
-    ));
+        "http://localhost:4200"));
 
-    config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
-    config.setAllowedHeaders(List.of("Authorization","Content-Type"));
-    config.setExposedHeaders(List.of("Authorization")); 
+    config.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
+    config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
+    config.setExposedHeaders(List.of("Authorization"));
     config.setAllowCredentials(true);
 
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
