@@ -1,108 +1,671 @@
 [{
   "_id": {
-    "$oid": "696ba7275fe46fff9ddceb13"
+    "$oid": "69a404dc62e8f8018352d5e2"
   },
   "nombre": "Patatas bravas",
-  "descripcion": "Con salsa brava y alioli casero",
-  "precio": 6.5,
-  "precioConIva": 7.15,
-  "kcal": 450,
+  "descripcion": "Con salsa brava y alioli",
+  "precio": {
+    "$numberDecimal": "7"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.70"
+  },
+  "precioConIva": {
+    "$numberDecimal": "7.70"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Patatas%20bravas%20madrid%20(cropped).jpg",
+  "disponible": true,
+  "tags": [
+    "ENTRANTE",
+    "VEGETARIANO"
+  ],
+  "alergenos": [
+    "huevo"
+  ],
+  "kcal": 300,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5e3"
+  },
+  "nombre": "Croquetas de jamon",
+  "descripcion": "Croquetas cremosas de jamon",
+  "precio": {
+    "$numberDecimal": "8"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 420,
+  "tags": [
+    "ENTRANTE"
+  ],
+  "alergenos": [
+    "GLUTEN",
+    "HUEVO",
+    "LACTEOS"
+  ],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.8"
+  },
+  "precioConIva": {
+    "$numberDecimal": "8.8"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Croquetas.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5e5"
+  },
+  "nombre": "Hummus con pan pita",
+  "descripcion": "Hummus casero con aceite de oliva",
+  "precio": {
+    "$numberDecimal": "7.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 350,
+  "tags": [
+    "ENTRANTE",
+    "VEGANO",
+    "EQUILIBRADO"
+  ],
+  "alergenos": [
+    "GLUTEN",
+    "SESAMO"
+  ],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.75"
+  },
+  "precioConIva": {
+    "$numberDecimal": "8.25"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pita%20bread%20and%20Hummus.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5e7"
+  },
+  "nombre": "Tortilla de patatas",
+  "descripcion": "Clasica tortilla jugosa",
+  "precio": {
+    "$numberDecimal": "6"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 410,
   "tags": [
     "ENTRANTE",
     "VEGETARIANO",
     "EQUILIBRADO"
   ],
-  "proteinas": 5.2,
-  "grasas": 22,
-  "carbohidratos": 48,
-  "disponible": true,
-  "restauranteId": {
-    "$oid": "67b864a6a578a10f0891d4e4"
-  },
-  "imagen": "https://images.unsplash.com/photo-1573225342350-16731dd9bf3d?q=80&w=500&auto=format&fit=crop"
-},
-{
-  "_id": {
-    "$oid": "696ba7275fe46fff9ddceb14"
-  },
-  "nombre": "Croquetas caseras",
-  "descripcion": "De jamón ibérico (6 unidades)",
-  "precio": 7,
-  "precioConIva": 7.7,
-  "kcal": 380,
-  "tags": [
-    "ENTRANTE"
+  "alergenos": [
+    "HUEVO"
   ],
-  "proteinas": 12,
-  "grasas": 18.5,
-  "carbohidratos": 35,
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.6"
+  },
+  "precioConIva": {
+    "$numberDecimal": "6.6"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tortilla%20de%20patatas.jpg",
   "disponible": true,
   "restauranteId": {
-    "$oid": "67b864a6a578a10f0891d4e4"
+    "$oid": "696ba6825fe46fff9ddceb06"
   },
-  "imagen": "https://images.unsplash.com/photo-1553649033-3fbc8d0fa3cb?q=80&w=500&auto=format&fit=crop"
+  "_class": "gestion.model.collections.Producto"
 },
 {
   "_id": {
-    "$oid": "696ba7275fe46fff9ddceb15"
+    "$oid": "69a404dc62e8f8018352d5e8"
   },
-  "nombre": "Hamburguesa clásica",
-  "descripcion": "Ternera 100%, queso fundido y patatas",
-  "precio": 10.9,
-  "precioConIva": 11.99,
-  "kcal": 850,
+  "nombre": "Pan con tomate",
+  "descripcion": "Tostada con tomate y aceite",
+  "precio": {
+    "$numberDecimal": "4.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 240,
+  "tags": [
+    "ENTRANTE",
+    "VEGANO",
+    "LIGERO"
+  ],
+  "alergenos": [
+    "GLUTEN"
+  ],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.45"
+  },
+  "precioConIva": {
+    "$numberDecimal": "4.95"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pa%20amb%20tomaquet.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5e9"
+  },
+  "nombre": "Nachos con guacamole",
+  "descripcion": "Nachos con guacamole y pico de gallo",
+  "precio": {
+    "$numberDecimal": "8.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 520,
+  "tags": [
+    "ENTRANTE",
+    "VEGANO",
+    "ALTA_ENERGIA"
+  ],
+  "alergenos": [],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "10"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "60"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.85"
+  },
+  "precioConIva": {
+    "$numberDecimal": "9.35"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nachos%20with%20guacamole.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5ea"
+  },
+  "nombre": "Hamburguesa clasica",
+  "descripcion": "Ternera, queso y pan brioche",
+  "precio": {
+    "$numberDecimal": "11"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 780,
+  "tags": [
+    "PRINCIPAL",
+    "ALTA_ENERGIA"
+  ],
+  "alergenos": [
+    "GLUTEN",
+    "LACTEOS"
+  ],
+  "proteinas": {
+    "$numberDecimal": "18"
+  },
+  "grasas": {
+    "$numberDecimal": "10"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "60"
+  },
+  "importeIva": {
+    "$numberDecimal": "1.1"
+  },
+  "precioConIva": {
+    "$numberDecimal": "12.1"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheeseburger.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5ed"
+  },
+  "nombre": "Pasta pesto",
+  "descripcion": "Pasta con pesto y parmesano",
+  "precio": {
+    "$numberDecimal": "10.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 690,
+  "tags": [
+    "PRINCIPAL",
+    "VEGETARIANO",
+    "EQUILIBRADO"
+  ],
+  "alergenos": [
+    "GLUTEN",
+    "LACTEOS",
+    "FRUTOS_SECOS"
+  ],
+  "proteinas": {
+    "$numberDecimal": "18"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "1.05"
+  },
+  "precioConIva": {
+    "$numberDecimal": "11.55"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pasta%20with%20pesto.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5f0"
+  },
+  "nombre": "Tacos de pollo",
+  "descripcion": "Tacos con pollo, salsa y lima",
+  "precio": {
+    "$numberDecimal": "12.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 760,
   "tags": [
     "PRINCIPAL",
     "ALTO_PROTEINA"
   ],
-  "proteinas": 35,
-  "grasas": 42,
-  "carbohidratos": 55,
+  "alergenos": [
+    "GLUTEN"
+  ],
+  "proteinas": {
+    "$numberDecimal": "35"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "1.25"
+  },
+  "precioConIva": {
+    "$numberDecimal": "13.75"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20tacos.jpg",
   "disponible": true,
   "restauranteId": {
-    "$oid": "67b864a6a578a10f0891d4e4"
+    "$oid": "696ba6825fe46fff9ddceb06"
   },
-  "imagen": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500&auto=format&fit=crop"
+  "_class": "gestion.model.collections.Producto"
 },
 {
   "_id": {
-    "$oid": "696ba7275fe46fff9ddceb16"
+    "$oid": "69a404dc62e8f8018352d5f1"
   },
-  "nombre": "Coca-Cola",
-  "descripcion": "Lata 330ml",
-  "precio": 2.2,
-  "precioConIva": 2.66,
-  "kcal": 139,
+  "nombre": "Pizza margarita",
+  "descripcion": "Tomate, mozzarella y albahaca",
+  "precio": {
+    "$numberDecimal": "12"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 900,
   "tags": [
-    "BEBIDA"
+    "PRINCIPAL",
+    "VEGETARIANO",
+    "ALTA_ENERGIA"
   ],
-  "proteinas": 0,
-  "grasas": 0,
-  "carbohidratos": 35,
+  "alergenos": [
+    "GLUTEN",
+    "LACTEOS"
+  ],
+  "proteinas": {
+    "$numberDecimal": "18"
+  },
+  "grasas": {
+    "$numberDecimal": "10"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "60"
+  },
+  "importeIva": {
+    "$numberDecimal": "1.2"
+  },
+  "precioConIva": {
+    "$numberDecimal": "13.2"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Margherita.jpg",
   "disponible": true,
   "restauranteId": {
-    "$oid": "67b864a6a578a10f0891d4e4"
+    "$oid": "696ba6825fe46fff9ddceb06"
   },
-  "imagen": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=500&auto=format&fit=crop"
+  "_class": "gestion.model.collections.Producto"
 },
 {
   "_id": {
-    "$oid": "696ba7275fe46fff9ddceb17"
+    "$oid": "69a404dc62e8f8018352d5f2"
   },
-  "nombre": "Brownie con helado",
-  "descripcion": "Chocolate fundido y vainilla",
-  "precio": 5.5,
-  "precioConIva": 6.05,
-  "kcal": 520,
+  "nombre": "Curry de garbanzos",
+  "descripcion": "Curry suave con arroz basmati",
+  "precio": {
+    "$numberDecimal": "11"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 680,
   "tags": [
-    "POSTRE"
+    "PRINCIPAL",
+    "VEGANO",
+    "EQUILIBRADO"
   ],
-  "proteinas": 6,
-  "grasas": 28,
-  "carbohidratos": 62,
+  "alergenos": [],
+  "proteinas": {
+    "$numberDecimal": "18"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "1.1"
+  },
+  "precioConIva": {
+    "$numberDecimal": "12.1"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chana%20masala.jpg",
   "disponible": true,
   "restauranteId": {
-    "$oid": "67b864a6a578a10f0891d4e4"
+    "$oid": "696ba6825fe46fff9ddceb06"
   },
-  "imagen": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e?q=80&w=500&auto=format&fit=crop"
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5f4"
+  },
+  "nombre": "Merluza a la romana",
+  "descripcion": "Merluza rebozada con limon",
+  "precio": {
+    "$numberDecimal": "13.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 740,
+  "tags": [
+    "PRINCIPAL",
+    "EQUILIBRADO"
+  ],
+  "alergenos": [
+    "PESCADO",
+    "GLUTEN",
+    "HUEVO"
+  ],
+  "proteinas": {
+    "$numberDecimal": "18"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "1.35"
+  },
+  "precioConIva": {
+    "$numberDecimal": "14.85"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fried%20fish.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5f8"
+  },
+  "nombre": "Helado de vainilla",
+  "descripcion": "Dos bolas de helado de vainilla",
+  "precio": {
+    "$numberDecimal": "4.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 260,
+  "tags": [
+    "POSTRE",
+    "VEGETARIANO"
+  ],
+  "alergenos": [
+    "LACTEOS"
+  ],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.45"
+  },
+  "precioConIva": {
+    "$numberDecimal": "4.95"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vanilla%20ice%20cream.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5f9"
+  },
+  "nombre": "Fruta del dia",
+  "descripcion": "Seleccion de fruta fresca",
+  "precio": {
+    "$numberDecimal": "3.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 120,
+  "tags": [
+    "POSTRE",
+    "VEGANO",
+    "LIGERO"
+  ],
+  "alergenos": [],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.35"
+  },
+  "precioConIva": {
+    "$numberDecimal": "3.85"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fruit%20salad.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5fa"
+  },
+  "nombre": "Agua mineral 50cl",
+  "descripcion": "Botella",
+  "precio": {
+    "$numberDecimal": "1.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 0,
+  "tags": [
+    "BEBIDA",
+    "VEGANO",
+    "LIGERO"
+  ],
+  "alergenos": [],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.15"
+  },
+  "precioConIva": {
+    "$numberDecimal": "1.65"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bottled%20water.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
+},
+{
+  "_id": {
+    "$oid": "69a404dc62e8f8018352d5fc"
+  },
+  "nombre": "Zumo de naranja natural",
+  "descripcion": "Exprimido al momento",
+  "precio": {
+    "$numberDecimal": "3.5"
+  },
+  "tipoIva": {
+    "$numberDecimal": "10"
+  },
+  "kcal": 120,
+  "tags": [
+    "BEBIDA",
+    "VEGANO",
+    "EQUILIBRADO"
+  ],
+  "alergenos": [],
+  "proteinas": {
+    "$numberDecimal": "6"
+  },
+  "grasas": {
+    "$numberDecimal": "6"
+  },
+  "carbohidratos": {
+    "$numberDecimal": "30"
+  },
+  "importeIva": {
+    "$numberDecimal": "0.35"
+  },
+  "precioConIva": {
+    "$numberDecimal": "3.85"
+  },
+  "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Orange%20juice%20in%20a%20glass.jpg",
+  "disponible": true,
+  "restauranteId": {
+    "$oid": "696ba6825fe46fff9ddceb06"
+  },
+  "_class": "gestion.model.collections.Producto"
 }]
